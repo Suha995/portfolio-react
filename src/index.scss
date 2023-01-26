@@ -15,6 +15,7 @@ html {
 
 body {
   background-color: $primary;
+  font-family: "Poppins";
 
   /* Navbar */
   .navbar {
@@ -41,6 +42,60 @@ body {
         text-decoration: none;
         margin-right: 1.2rem;
         color: black;
+      }
+    }
+  }
+
+  .content {
+    width: 100vw;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .home {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+      .icons {
+        a {
+          text-decoration: none;
+          i {
+            display: block;
+            margin-bottom: 2rem;
+          }
+        }
+      }
+
+      .info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+
+        .info-left {
+          width: 40rem;
+          h2 {
+            font-size: 2rem;
+            margin-bottom: 3rem;
+          }
+          p {
+            display: inline-block;
+            font-size: 1.6rem;
+            color: #626565;
+          }
+        }
+        .info-right {
+          img {
+            width: 20rem;
+            height: 20rem;
+            border-radius: 50%;
+            background: transparent;
+          }
+        }
       }
     }
   }
