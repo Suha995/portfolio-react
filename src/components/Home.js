@@ -1,13 +1,17 @@
-import pPhoto from "../imgs/personal-photo.png";
-import { Link } from "react-router-dom";
+import React from "react";
+
 const Home = () => {
   return (
     <div className="home">
       <div className="icons">
-        <a href="https://github.com/Suha995" target="_blank">
+        <a href="https://github.com/Suha995" target="_blank" rel="noreferrer">
           <i class="fa-brands fa-github fa-3x"></i>
         </a>
-        <a href="https://www.linkedin.com/in/suhair-aljammal/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/suhair-aljammal/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i class="fa-brands fa-linkedin fa-3x"></i>
         </a>
       </div>
@@ -20,7 +24,7 @@ const Home = () => {
           </p>
         </div>
         <div className="info-right">
-          <img src={pPhoto} alt="" />
+          <img src="imgs/personal-photo.png" alt="" />
         </div>
       </div>
     </div>

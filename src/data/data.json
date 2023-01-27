@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Portfolio",
+      "src": "imgs/portfolio.png",
+      "url": "https://suhairaljammalportfolio.netlify.app/"
+    },
+    {
+      "id": 2,
+      "title": "Todo List",
+      "src": "imgs/todo-list.png",
+      "url": "https://todolist-suhair.netlify.app/"
+    },
+    {
+      "id": 3,
+      "title": "Portfolio",
+      "src": "imgs/portfolio.png",
+      "url": "https://suhairaljammalportfolio.netlify.app/"
+    }
+  ]
+}
