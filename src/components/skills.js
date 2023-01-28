@@ -4,8 +4,6 @@ import {
   faCss3,
   faJs,
   faReact,
-  faNodeJs,
-  faCheck,
 } from "@fortawesome/free-brands-svg-icons";
 const Skills = () => {
   return (
@@ -37,42 +35,9 @@ const Skills = () => {
               </div>
             </div>
             <div className="skill">
-              <FontAwesomeIcon className="icon" icon={faCss3} />
-              <div className="caption">
-                <h4>REACT</h4>
-                <span>Beginner</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="box">
-          <h3>Backend</h3>
-          <div className="back-skills">
-            <div className="skill">
-              <FontAwesomeIcon className="icon" icon={faNodeJs} />
-              <div className="caption">
-                <h4>Node.js</h4>
-                <span>Beginner</span>
-              </div>
-            </div>
-            <div className="skill">
-              <FontAwesomeIcon className="icon" icon={faCss3} />
-              <div className="caption">
-                <h4>React</h4>
-                <span>Beginner</span>
-              </div>
-            </div>
-            <div className="skill">
-              <FontAwesomeIcon className="icon" icon={faJs} />
-              <div className="caption">
-                <h4>React</h4>
-                <span>Beginner</span>
-              </div>
-            </div>
-            <div className="skill">
               <FontAwesomeIcon className="icon" icon={faReact} />
               <div className="caption">
-                <h4>React</h4>
+                <h4>REACT</h4>
                 <span>Beginner</span>
               </div>
             </div>

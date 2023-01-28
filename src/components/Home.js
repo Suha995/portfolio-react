@@ -1,18 +1,20 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Home = () => {
   return (
     <div className="home">
       <div className="icons">
         <a href="https://github.com/Suha995" target="_blank" rel="noreferrer">
-          <i class="fa-brands fa-github fa-3x"></i>
+          <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
         </a>
         <a
           href="https://www.linkedin.com/in/suhair-aljammal/"
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fa-brands fa-linkedin fa-3x"></i>
+          <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
         </a>
       </div>
       <div className="info">
