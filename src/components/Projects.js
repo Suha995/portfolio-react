@@ -4,7 +4,6 @@ import data from "../data/data.json";
 const Projects = () => {
   const projects = data.projects;
   console.log(projects);
-  console.log("Hello");
   return (
     <div className="projects">
       {projects.map((proj) => {
