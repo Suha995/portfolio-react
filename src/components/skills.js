@@ -5,6 +5,7 @@ import {
   faJs,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
+import "./skills.scss";
 const Skills = () => {
   return (
     <div className="skills">

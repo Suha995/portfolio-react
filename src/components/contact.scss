@@ -1,0 +1,46 @@
+$focus: #56288b;
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p {
+    margin-bottom: 3rem;
+  }
+  form {
+    text-align: left;
+    width: 30rem;
+
+    label {
+      margin-bottom: 1.5rem;
+    }
+
+    input,
+    textarea,
+    button {
+      display: block;
+      width: 100%;
+      outline: none;
+      padding: 10px;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      font-family: "Poppins";
+      border: none;
+    }
+    input {
+      margin-bottom: 1.2rem;
+    }
+    textarea {
+      margin-bottom: 2rem;
+    }
+
+    button {
+      background-color: $focus;
+      font-size: 1.4rem;
+      letter-spacing: 0.5rem;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}

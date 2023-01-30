@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectDetail from "./ProjectDetail";
 import data from "../data/data.json";
+import "./projects.scss";
 const Projects = () => {
   const projects = data.projects;
   console.log(projects);
