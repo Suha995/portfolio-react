@@ -6,6 +6,7 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
 
   const handleSubmit = (e) => {
     console.log("hello");
@@ -23,8 +24,10 @@ const Contact = () => {
     if (errors.length === 0) {
       console.log("send the message to the api");
       setError("");
+      setSuccess("Message sent successfully");
     } else {
       setError(errors.join(", "));
+      setSuccess("");
       e.preventDefault();
     }
   };
@@ -33,7 +36,7 @@ const Contact = () => {
       <h1>Contact Me</h1>
       <p>Get in touch</p>
       {error && <span>{error}</span>}
-      {!error && <span>{"Message sent successfully"}</span>}
+      {success && <span>{success}</span>}
       <form onSubmit={handleSubmit}>
         <label>Name</label>
         <input
