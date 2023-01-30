@@ -7,16 +7,19 @@ const Projects = () => {
   console.log(projects);
   return (
     <div className="projects">
-      {projects.map((proj) => {
-        return (
-          <ProjectDetail
-            key={proj.id}
-            title={proj.title}
-            source={proj.src}
-            address={proj.url}
-          />
-        );
-      })}
+      <h2>Projects</h2>
+      <div className="projects-container">
+        {projects.map((proj) => {
+          return (
+            <ProjectDetail
+              key={proj.id}
+              title={proj.title}
+              source={proj.src}
+              address={proj.url}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 };

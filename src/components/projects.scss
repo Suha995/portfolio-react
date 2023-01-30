@@ -1,31 +1,57 @@
 .projects {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  align-items: center;
-  .project-detail {
-    text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    .project-snap {
-      width: 20rem;
-      height: 12rem;
-      background-position: center top;
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
+  text-align: center;
 
-    h3 {
-      margin-bottom: 2rem;
+  h2 {
+    font-size: 2.5rem;
+    margin: 2rem 0;
+  }
+  .projects-container {
+    // width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    .project-detail {
+      width: 30rem;
+      height: 25rem;
+      text-align: center;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      .project-snap {
+        width: 100%;
+        height: 70%;
+        // background-position: center;
+        // background-size: cover;
+        // background-repeat: no-repeat;
+        // object-fit: cover;
+      }
+
+      h3 {
+        margin-bottom: 2rem;
+      }
+      span {
+        display: block;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        a {
+          text-decoration: none;
+          font-size: 1.2rem;
+        }
+      }
     }
-    span {
-      display: block;
-      margin-bottom: 1rem;
-      margin-left: auto;
-      a {
-        text-decoration: none;
-        font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .projects {
+    h2 {
+      font-size: 1rem;
+    }
+    .projects-container {
+      .project-detail {
+        width: 25rem;
       }
     }
   }

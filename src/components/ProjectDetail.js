@@ -5,10 +5,11 @@ const ProjectDetail = ({ title, source, address }) => {
 
   return (
     <div className="project-detail">
-      <div
+      {/* <div
         className="project-snap"
         style={{ backgroundImage: `url(${source})` }}
-      ></div>
+      ></div> */}
+      <img src={`${source}`} alt="" className="project-snap" />
       <h3>{title}</h3>
       <span>
         <a href={address} target="_blank" rel="noreferrer">

@@ -21,8 +21,8 @@ const Home = () => {
         <div className="info-left">
           <h2>Suhair Aljammal</h2>
           <p>
-            I'm web devloper. Seeking a position in front-end web develpoment to
-            challenge and improve myself.
+            I'm a web developer. Seeking a position in front-end web develpoment
+            to challenge and improve myself.
           </p>
         </div>
         <div className="info-right">
