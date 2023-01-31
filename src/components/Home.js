@@ -20,6 +20,7 @@ const Home = () => {
       <div className="info">
         <div className="info-left">
           <h2>Suhair Aljammal</h2>
+          <span>***** Nice to meet you *****</span>
           <p>
             I'm a web developer. Seeking a position in front-end web develpoment
             to challenge and improve myself.

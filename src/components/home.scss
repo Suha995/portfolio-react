@@ -17,13 +17,17 @@ $line: #b7b9b9;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 4rem;
 
     .info-left {
       width: 40rem;
       h2 {
-        font-size: 2rem;
-        margin-bottom: 3rem;
+        font-size: 3rem;
+      }
+      span {
+        display: inline-block;
+        margin-bottom: 5rem;
+        font-size: 1.2rem;
       }
       p {
         display: inline-block;
@@ -34,8 +38,8 @@ $line: #b7b9b9;
     .info-right {
       img {
         transform: translateY(-10%);
-        width: 25rem;
-        height: 25rem;
+        width: 35rem;
+        height: 35rem;
         border-radius: 50%;
         filter: grayscale(100%);
         padding: 5px;
@@ -52,10 +56,15 @@ $line: #b7b9b9;
     }
     .info {
       flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
       .info-left {
         width: 20rem;
-        h2 {
-          display: none;
+        text-align: center;
+        span {
+          margin-bottom: 2rem;
+          font-size: 1rem;
         }
         p {
           font-size: 1.1rem;
@@ -63,8 +72,8 @@ $line: #b7b9b9;
       }
       .info-right {
         img {
-          width: 15rem;
-          height: 15rem;
+          width: 20rem;
+          height: 20rem;
           padding: 3px;
         }
       }

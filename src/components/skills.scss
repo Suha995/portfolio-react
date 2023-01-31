@@ -1,11 +1,10 @@
 .skills {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  text-align: center;
 
   h2 {
-    margin-bottom: 3rem;
+    font-size: 2.8rem;
+    margin-bottom: 5rem;
   }
 
   .boxes {
@@ -18,8 +17,8 @@
     .box {
       background-color: white;
       border-radius: 5px;
-      width: 30rem;
-      height: 30rem;
+      width: 35rem;
+      height: 35rem;
       padding: 20px;
       text-align: center;
       h3 {
@@ -40,17 +39,48 @@
           gap: 1.2rem;
 
           .icon {
-            font-size: 3.3rem;
+            font-size: 4rem;
             display: block;
           }
           .caption {
             h4 {
-              font-size: 1rem;
+              font-size: 2rem;
               margin-bottom: 0;
             }
             span {
-              font-size: 0.8rem;
+              font-size: 1.2rem;
               color: grey;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skills {
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    .boxes {
+      .box {
+        .front-skills,
+        .back-skills {
+          .skill {
+            .icon {
+              font-size: 4rem;
+            }
+            .caption {
+              h4 {
+                font-size: 1.5rem;
+                margin-bottom: 0;
+              }
+              span {
+                font-size: 1rem;
+                color: grey;
+              }
             }
           }
         }

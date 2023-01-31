@@ -5,15 +5,21 @@ $focus: #56288b;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  h2 {
+    font-size: 2.8rem;
+  }
   p {
+    font-size: 1.2rem;
     margin-bottom: 3rem;
   }
   form {
     text-align: left;
-    width: 30rem;
+    width: 50rem;
 
     label {
+      font-size: 1.5rem;
       margin-bottom: 1.5rem;
+      color: grey;
     }
 
     input,
@@ -23,7 +29,7 @@ $focus: #56288b;
       width: 100%;
       outline: none;
       padding: 10px;
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       border-radius: 5px;
       font-family: "Poppins";
       border: none;
@@ -37,10 +43,25 @@ $focus: #56288b;
 
     button {
       background-color: $focus;
-      font-size: 1.4rem;
+      font-size: 1.5rem;
       letter-spacing: 0.5rem;
       color: white;
       cursor: pointer;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact {
+    h2 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 0.8rem;
+      margin-bottom: 2rem;
+    }
+    form {
+      width: 30rem;
     }
   }
 }

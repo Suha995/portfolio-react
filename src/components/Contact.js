@@ -34,7 +34,7 @@ const Contact = () => {
   };
   return (
     <div className="contact">
-      <h1>Contact Me</h1>
+      <h2>Contact Me</h2>
       <p>Get in touch</p>
       {error && <span>{error}</span>}
       {success && <span>{success}</span>}
