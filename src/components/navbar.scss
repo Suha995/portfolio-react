@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     .logo {
-      font-size: 1.8rem;
+      font-size: 3rem;
     }
 
     .links {
@@ -24,6 +24,12 @@
         text-decoration: none;
         margin-right: 1.2rem;
         color: black;
+        font-size: 1.7rem;
+      }
+
+      a:hover {
+        opacity: 0.7;
+        font-size: 2rem;
       }
     }
 
@@ -57,6 +63,9 @@
 
     .container {
       width: 100%;
+      .logo {
+        font-size: 1.8rem;
+      }
       .burger {
         display: block;
       }
@@ -66,7 +75,8 @@
       }
       .sidebar {
         // width: 10%;
-        padding: 0 1rem;
+
+        padding: 2rem 1rem;
         height: 100vh;
         position: fixed;
         right: 0;
@@ -76,13 +86,20 @@
         z-index: 1;
         display: none;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         gap: 2rem;
+
         a {
           text-decoration: none;
           margin-right: 1.2rem;
           color: black;
+          border-bottom: 1px solid gray;
+        }
+
+        .close-tab {
+          display: block;
+          font-size: 3rem;
         }
       }
     }
