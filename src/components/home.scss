@@ -37,13 +37,12 @@ $line: #b7b9b9;
     }
     .info-right {
       img {
-        transform: translateY(-10%);
-        width: 35rem;
-        height: 35rem;
-        border-radius: 50%;
+        width: 40rem;
+        height: 50rem;
         filter: grayscale(100%);
         padding: 5px;
         border: 1px solid $line;
+        object-fit: cover;
       }
     }
   }
@@ -73,7 +72,7 @@ $line: #b7b9b9;
       .info-right {
         img {
           width: 20rem;
-          height: 20rem;
+          height: 30rem;
           padding: 3px;
         }
       }
